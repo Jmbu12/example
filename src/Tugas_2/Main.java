@@ -1,6 +1,8 @@
+package Tugas_2;
+
 import java.util.Scanner;
 
-public class Tugas {
+public class Main {
     static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -18,7 +20,7 @@ public class Tugas {
             switch (pilih) {
                 case 1:
                     System.out.println("\n=========================================");
-                    System.out.print("building : ");
+                    System.out.print("Name Building : ");
                     String building = input.nextLine();
 
                     System.out.print("Addres : ");
@@ -29,7 +31,7 @@ public class Tugas {
 
                     System.out.println("\n=========================================");
                     System.out.println("Building data");
-                    System.out.println("Building: " + building);
+                    System.out.println("Name Building: " + building);
                     System.out.println("Adrees: " + Addres);
                     System.out.println("Floor: " + Floor);
                     System.out.println("=========================================");
