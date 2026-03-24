@@ -1,4 +1,4 @@
 package Tugas_2;
 
-public class main {
+public class Main {
 }
