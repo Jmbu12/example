@@ -6,7 +6,7 @@ public class Building {
     int Floor;
 
     public Building(String building, String Addres, int Floor){
-        this.building = building
+        this.building = building;
         this.Addres = Addres;
         this.Floor = Floor;
 
